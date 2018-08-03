@@ -1,0 +1,34 @@
+---
+title: "Capstone Proposal"
+author: "Michael Lyons"
+header-includes: \usepackage{setspace}\doublespacing
+date: "August 3, 2018"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+***
+
+## Predicting Popular Names
+
+  I am hoping to develop an algorithm that will be able to predict whether or not a name will become popular within a certain period of time.
+
+## Clients and Their Decisions
+
+  The target clients of being able to successfully predict popular names would be parents and makers of novelty items that feature names, such as keychains.
+  
+  For parents, being able to predict the popularity of a name will allow you to make more informed choices when naming children. If you would like to name your child something unique, you may choose a less popular name that shows less of a chance of becoming popular. If you would like to be ahead of the naming curve and give your child a name that is new and growing in popularity, you can choose a name that is up and coming.
+  
+  For the manufacturers of name-featuring novelties, this data would be valuable for determining quantities of products to be produced. Knowing that a name is growing in popularity tells you that the demand for products that feature that name will likely increase, as the number of people with that name increases.
+
+## Data Source and Plan
+
+  The data that I plan to use comes from US Social Security applications on Google BigQuery. The data is available for public use, and I plan to acquire relevant data from the source using SQL.
+  
+  I imagine that this will be approached through analyzing the life cycles of names to see if they offer hints of growth. I am predicting that there will be typical amounts of time for how long it takes for a name to become popular and how long a name stays popular. I would also expect that periods of smaller growth would come before periods of larger growth.
+
+## Deliverables
+
+  The deliverables for this project will be code, a paper, and a slide deck.
